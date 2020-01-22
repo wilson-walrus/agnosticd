@@ -158,4 +158,4 @@ ssh -i /tmp/output_dir/${GUID}key cloud-user@169.47.183.41
 
 ansible-playbook configs/ocp-clientvm/destroy_env.yml -e @configs/ocp-clientvm/sample_vars_osp.yml -e @my_secret.yml
 
-----
+---- 
